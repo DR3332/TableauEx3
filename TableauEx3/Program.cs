@@ -72,7 +72,7 @@ namespace TableauEx3
             int[] TableauInitialisé = new int[int.Parse(Console.ReadLine())];
             int []TableauFinal = SaisieFinale(TableauInitialisé);
 
-            int[] Compteur = new int[TableauFinal.Length]; // Je souhaite faire mon compteur ici
+            int[] Compteur = new int[TableauFinal.Length]; // Je souhaite faire mon compteur ici.
             for(int J = 0; J < TableauFinal.Length; J ++)
             {
                 
